@@ -1,0 +1,45 @@
+.blog-page{
+    display: none;
+    background-color: white;
+    overflow: scroll;
+}
+
+.blog-page > span{
+    position: relative;
+    padding: 10px;
+    scale: 1.3;
+    transition: all 0.2s ease-in-out;
+    animation: bounce-left 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce-left{
+    0%{
+        left: 0;
+    }
+    70%{
+        left: 1vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.blog-page > span:hover{
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.blog-content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+}
+
+.blog-page-image{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
