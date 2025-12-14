@@ -8,59 +8,46 @@
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="../styles/blog.css">
     <link rel="stylesheet" href="../styles/transition.css">
+    <link rel="stylesheet" href="../styles/jigsaw.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
-    <div id="homePage" class="home-page">
-        <div class="home-top">
-            <img class="home-top-background" src="../assets/images/banjokazooie_background.jpg" alt="achtergrond foto">
-            <h1>Aron X Banjo Kazooie</h1>
-            <video class="jigsaw-1" src="../assets/videos/banjo_kazooie_intro.mp4" autoplay muted loop></video>
-            <section class="icon-home-top">
-                <span class="material-symbols-outlined">
-                    south
-                </span>
-            </section>
-            <video class="jigsaw-2" src="../assets/videos/banjo_kazooie_gameplay.mp4" autoplay muted loop></video>
-        </div>
-        <div class="home-bottom">
-            <div class="timeline">
-                <section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section>
-                <section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section><section onclick="openWeek(0)">
-                    <h2>Week1</h2>
-                </section>
-            </div>
-        </div>
-    </div>
-
-    <div id="blogPage" class="blog-page">
+    <i id="backArrowMovie" class="back-arrow">
         <span onclick="closeWeek()" class="material-symbols-outlined">
             arrow_left_alt
         </span>
-        <section id="blogContent" class="blog-content"></section>
-    </div>
+    </i>
+
+    <main>
+        <div id="homePage" class="home-page">
+            <div class="home-top">
+                <img class="home-top-background" src="../assets/images/banjokazooie_background.jpg" alt="achtergrond foto">
+                <h1>Aron X Banjo Kazooie</h1>
+                <video id="jigsaw1" class="jigsaw-1" src="../assets/videos/jigsaw1.mp4" autoplay muted loop></video>
+                <section class="icon-home-top">
+                    <p>scroll down</p>
+                    <span class="material-symbols-outlined">
+                        south
+                    </span>
+                </section>
+                <video id="jigsaw2" class="jigsaw-2" src="../assets/videos/jigsaw2.mp4" autoplay muted loop></video>
+            </div>
+            <div class="home-bottom">
+                <div class="timeline">
+                    <section onclick="openWeek(0)">
+                        <h2>Week1</h2>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div id="blogPage" class="blog-page">
+            <span onclick="closeWeek()" class="material-symbols-outlined">
+                arrow_left_alt
+            </span>
+            <section id="blogContent" class="blog-content"></section>
+        </div>
+    </main>
 
     <script src="../scripts/index.js"></script>
 </body>

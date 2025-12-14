@@ -7,7 +7,7 @@
 .blog-page > span{
     position: relative;
     padding: 10px;
-    scale: 1.3;
+    transform: scale(1.3);
     transition: all 0.2s ease-in-out;
     animation: bounce-left 1.5s ease-in-out infinite;
 }
@@ -26,7 +26,7 @@
 
 .blog-page > span:hover{
     cursor: pointer;
-    scale: 1.6;
+    transform: scale(1.6);
 }
 
 .blog-content{

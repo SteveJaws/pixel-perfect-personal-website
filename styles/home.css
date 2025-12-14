@@ -49,7 +49,7 @@
 
 .home-page{
     width: 100%;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .home-top{
@@ -71,6 +71,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    background-attachment: fixed;
     object-fit: cover;
     filter: blur(3px) brightness(0.3);
     z-index: -1;
@@ -139,7 +140,7 @@
 .icon-home-top > span{
     position: relative;
     animation: bounce 1s ease-in-out infinite;
-    scale: 2;
+    transform: scale(2);
 }
 
 @keyframes bounce{
@@ -178,5 +179,5 @@
 
 .timeline > section:hover{
     cursor: pointer;
-    scale: 1.2;
+    transform: scale(1.2);
 }
