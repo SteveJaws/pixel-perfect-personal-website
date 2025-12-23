@@ -10,6 +10,36 @@
             {
                 "title": "Individuele website designen",
                 "photo": "personal-website-design.png"
+            },
+            {
+                "title": "Website version 1 image",
+                "photo": "website-image-1.png"
+            }
+        ]
+    },
+    {
+        "title": "Blog week 2",
+        "content": "In de tweede week van Pixel Perfect zijn we in de lessen weer verder gegaan met de raspberry pi en HTML en CSS. Voor de raspberry pi zijn we in de lessen vooral ingegaan op de onderdelen die we hebben gekregen bij onze raspberry pi ook hebben we opdrachten daarbij gemaakt. En voor HTML, CSS hebben we vooral les gekregen over CSS display flex we moesten hierbij leuke opdrachten maken die ons veel leerden over hoe je met display flex kunt werken. Verder moesten we een individuele en groeps styleguide maken voor onze website’s, over de individuele style guide gaven we elkaar feedback in de les. Met mijn groepje hebben we ook deze week weer een vergadering gehad waar Mina Vis de vergader leider was ik was hierbij de notulist deze keer. Hier hebben we onze voortgang besproken en kwamen we erachter dat we onze gantt chart verder uit moesten werken, verder hebben we afgesproken om het plan van aanpak af te maken in de vakantie en ook gaan we onze individuele puzzels bedenken. Ook was ik in mijn vorige blog vergeten te vertellen dat we de week daarvoor ook een vergadering hebben gehad waar ik de vergader leider was en mina de notulist was. Hier hebben we vooral besproken dat we eerst de gantt chart zouden maken en dat we alvast onze puzzels gingen bedenken. Verder moesten we deze week ook onze 3 leerdoelen bedenken, omdat we aan deze leerdoelen deze periode moeten werken en bewijzen hiervan te verzamelen. In het kort waren de leerdoelen die ik had bedacht betere samenwerking denk dan aan veel overleggen met mn groep. Ook had ik bedacht een goede planning maken, bijhouden, en me aan mijn planning houden, want normaal gepsproken freestyle ik het een beetje een project maar daar zitten wel wat nadelen aan had ik ondervonden. Ook had ik al ervaring met HTML, CSS en javascript alleen wil ik meer complexere techniecken leren met deze tools omdat ik vaak als ik iets een beetje begrijp, dan leer ik vaak niets nieuws meer omdat ik bij de bekende techniecken blijf, daarom wou ik met HTML, CSS en javascript uit mijn comfort zone stappen en elke week nieuwe dingen leren.",
+        "images": [
+            {
+                "title": "Vergadering 1",
+                "photo": "vergadering1.png"
+            },
+            {
+                "title": "Vergadering 2",
+                "photo": "vergadering2.png"
+            },
+            {
+                "title": "CSS les opdracht",
+                "photo": "lesWeek2.png"
+            },
+            {
+                "title": "Individuele website progressie",
+                "photo": "personalWebsite1.png"
+            },
+            {
+                "title": "Individuele Styleguide",
+                "photo": "individueleStyleguide.png"
             }
         ]
     }

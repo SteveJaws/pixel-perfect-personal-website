@@ -1,0 +1,1 @@
+H1 en h2 mogen niet ingeladen worden via javascript mag wel worden ingevuld via javascript.

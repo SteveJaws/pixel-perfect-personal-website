@@ -33,20 +33,25 @@
                 <video id="jigsaw2" class="jigsaw-2" src="../assets/videos/jigsaw2.mp4" autoplay muted loop></video>
             </div>
             <div class="home-bottom">
-                <div class="timeline">
+                <ul class="timeline">
                     <section onclick="openWeek(0)">
                         <h2>Week1</h2>
                     </section>
-                </div>
+                    <section onclick="openWeek(1)">
+                        <h2>Week1</h2>
+                    </section>
+                </ul>
             </div>
         </div>
 
-        <div id="blogPage" class="blog-page">
+        <article id="blogPage" class="blog-page">
             <span onclick="closeWeek()" class="material-symbols-outlined">
                 arrow_left_alt
             </span>
-            <section id="blogContent" class="blog-content"></section>
-        </div>
+            <section id="blogContent" class="blog-content">
+
+            </section>
+        </article>
     </main>
 
     <script src="../scripts/index.js"></script>

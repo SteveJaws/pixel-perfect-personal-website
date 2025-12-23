@@ -50,6 +50,7 @@ async function loadBlog(week){
 
         let imageElement = document.createElement("img");
         imageElement.src = "../assets/blog/images/" + image.photo;
+        imageElement.alt = "blog image";
         imageElement.classList.add("blog-page-image");
 
         blogContent.appendChild(imageTitleElement);
@@ -87,8 +88,9 @@ function createVideo(jigsaw, progress){
     video = document.createElement("video");
     video.classList.add("jigsaw-video-fullscreen");
     video.src = "../assets/videos/" + jigsaw + ".mp4";
-    video.autoplay = true
-    video.muted = true
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
     video.currentTime = progress;
     video.id = jigsaw;
     video.classList.add("jigsaw-video")
