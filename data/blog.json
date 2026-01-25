@@ -5,15 +5,18 @@
         "images": [
             {
                 "title": "Mindmap",
-                "photo": "Mindmap.jpg"
+                "photo": "Mindmap.jpg",
+                "id": "mindmap-image"
             },
             {
                 "title": "Individuele website designen",
-                "photo": "personal-website-design.png"
+                "photo": "personal-website-design.png",
+                "id": "personal-website-image"
             },
             {
                 "title": "Website version 1 image",
-                "photo": "website-image-1.png"
+                "photo": "website-image-1.png",
+                "id": "website-image-1"
             }
         ]
     },
@@ -23,23 +26,137 @@
         "images": [
             {
                 "title": "Vergadering 1",
-                "photo": "vergadering1.png"
+                "photo": "vergadering1.png",
+                "id": "vergadering1"
             },
             {
                 "title": "Vergadering 2",
-                "photo": "vergadering2.png"
+                "photo": "vergadering2.png",
+                "id": "vergadering2"
             },
             {
                 "title": "CSS les opdracht",
-                "photo": "lesWeek2.png"
+                "photo": "lesWeek2.png",
+                "id": "lesWeek2"
             },
             {
                 "title": "Individuele website progressie",
-                "photo": "personalWebsite1.png"
+                "photo": "personalWebsite1.png",
+                "id": "personalWebsite1"
             },
             {
                 "title": "Individuele Styleguide",
-                "photo": "individueleStyleguide.png"
+                "photo": "individueleStyleguide.png",
+                "id": "individueleStyleguide"
+            }
+        ]
+    },
+    {
+        "title": "Blog week 3",
+        "content": "In week 3 heb ik les gekregen in wat een spel juist een goed spel maakt. Dat hebben we uitgezocht door met mede klasgenoten te discussiëren. Daar kwam uit dat een goed spel duidelijk moet zijn en herspeelbaarheid moet hebben. Ook kregen we uitleg over javascript vooral aan hoe het werkt en de basis beginselen zoals hoe je het beste je javascript code kunt schrijven voor je website. Ook heb ik deze week weer een vergadering gehad met mijn groep, hierin hebben we besproken dat we de gantt chart even goed moeten aanscherpen en ook hebben we de taken voor wat er moet gebeuren voor de groepswebsite verdeeld, ik ga hierin de CSS schrijven. Verder heb ik voor mijn individuele website ervoor gezorgd dat de h1 en h2 elementen niet via javascript worden aangemaakt maar worden ingevuld via javascript, dit naar aanleiden van feedback van een student assistent. Daarnaast heb ik rustig aan gedaan met de raspberry pi deze week, omdat ik vooral het idee voor mijn puzzel heb uitgewerkt zodat ik daar volgende week mee aan de slag kan, ik ga namelijk snake na maken op de matrix die we bij onze raspberry pi hebben gekregen. Ook ben ik deze week echt van start gegaan met de 3 leerdoelen zo heb ik tijdens deze week een bericht gestuurd aan mijn groep om te vragen wat ze aan het doen waren op dat moment en waar ze een beetje zijn, ook heb ik gedeeld wat ik aan het doen was. Ook heb ik de gantt chart iets verduidelijkt en geüpdatet. En heb ik een nieuwe css technieck geleerd genaamd image masking.",
+        "images": [
+            {
+                "title": "Vergadering 3",
+                "photo": "vergadering3.png",
+                "id": "vergadering3"
+            },
+            {
+                "title": "Team voortgang",
+                "photo": "1e_keer_bewijs_team.png",
+                "id": "1e_keer_bewijs_team"
+            },
+            {
+                "title": "Gantt chart voortgang",
+                "photo": "1e_keer_gantt_chart.png",
+                "id": "1e_keer_gantt_chart"
+            },
+            {
+                "title": "Image masking",
+                "photo": "image_masking.png",
+                "id": "image_masking"
+            }
+        ]
+    },
+    {
+        "title": "Blog week 4",
+        "content": "In week 4 ben ik echt begonnen met het bouwen van de puzzel alleen kwam ik er al snel achter dat mij puzzel idee niet mogelijk was. Dus moest ik snel een nieuw idee bedenken wat uiteindelijk het blind dino run idee werd. Bij het testen van mijn paper prototype had een klasgenoot mij feedback gegeven over dat ik de timing van mijn puzzel random moet random zodat hij meer replayability krijgt. Ook had ik feedback gekregen van een klasgenoot op mijn individuele styleguide dus de feedback heb ik verwerkt in mijn individuele style guide, de dingen die ik heb veranderd zijn input veld toegevoegd, tekst kleur toegevoegd, button toegevoegd, title en normal font verschillend gemaakt, dat maakt de normale tekst beter te lezen op de website namelijk. Ook moesten we feedback geven over andere mensen hun individuele website design dus dat heb ik gedaan, ook heb ik feedback gekregen maar na er kritisch naar gekeken te hebben, heb ik besloten om niets te veranderen aan mijn website omdat ik de feedback niet correct vond. Ik had namelijk al eerder feedback van andere klasgenoten in mijn website verwerkt waardoor hij nu wel al af is naar mijn. Voor de rest heb ik dit weekend flink geknutseld aan het uiterlijk van mijn puzzel ook heb ik het idee helemaal uitgewerkt zodat ik het volgende week in elkaar kan gaan zetten, de code voor de puzzel is wel al af. Ook hebben we weer een vergadering gehad en heb ik verder gewerkt aan mijn persoonlijke leerdoelen de foto’s voor deze dingen zijn hieronder te vinden. Ook heb ik nagedacht over de 2 zaken die ik ontdekten over deze opleiding en heb ik nagedacht over de 2 vragen die ik nog heb over de opleiding en over het vakgebied informatica hierover volgende week meer in de blog.",
+        "images": [
+            {
+                "title": "Vergadering 4",
+                "photo": "vergadering4.png",
+                "id": "vergadering4"
+            },
+            {
+                "title": "Nieuwe styleguide (feedback included)",
+                "photo": "styleguide_week_4.png",
+                "id": "styleguide_week_4"
+            },
+            {
+                "title": "Puzzel work in progress",
+                "photo": "puzzel_v1.jpg",
+                "id": "puzzel_v1"
+            },
+            {
+                "title": "Puzzel design",
+                "photo": "design_puzzel.png",
+                "id": "design_puzzel"
+            },
+            {
+                "title": "Individuele website design 1",
+                "photo": "individuele_website_design_1.png",
+                "id": "individuele_website_design_1"
+            },
+            {
+                "title": "Individuele website design 2",
+                "photo": "individuele_website_design_2.png",
+                "id": "individuele_website_design_2"
+            },
+            {
+                "title": "Leerdoel met team interacteren",
+                "photo": "2e_keer_bewijs_team.png",
+                "id": "2e_keer_bewijs_team"
+            },
+            {
+                "title": "Css animations helemaal uitgezocht",
+                "photo": "css_animations.png",
+                "id": "css_animations"
+            },
+            {
+                "title": "Gantt chart update",
+                "photo": "2e_keer_gantt_chart.png",
+                "id": "2e_keer_gantt_chart"
+            }
+            
+        ]
+    },
+    {
+        "title" : "Blog week 5",
+        "content": "In deze week ben ik vooral bezig geweest aan het bouwen van mijn puzzel dit omdat deze volgende week af moest zijn en ik nog veel werk te doen had eraan. Voor de rest heb ik veel met mijn team afgestemd om deze week te bepalen wie wat ging doen voor de groepswebsite, dus we hebben daarmee de gantt-chart ook weer aangevuld, ook hebben we weer een vergadering gehouden natuurlijk waar we een beetje met elkaar hebben teruggekeken naar deze week en hebben bedacht wat we dit weekend nog zouden moeten doen. Voor de rest heb ik veel feedback gevraagd zowel aan leraren als studenten assistenten en mede leerlingen om zo een zo goed mogelijke individuele website neer te zetten en een zo goed mogelijke puzzel te kunnen maken. Hier kwam bijvoorbeeld uit dat ik een andere kleur knop moest gebruiken voor mijn puzzel en een hele andere shutdown button omdat deze duidelijker daarvoor zouden zijn, ook moest ik mijn tijdlijn veranderen ik moest er echt een duidelijke lijn van maken en ik moest er per week wat interactieve punten op de tijdlijn zetten. Daarnaast ben ik ook weer bezig geweest met mijn leerdoelen.",
+        "images": [
+            {
+                "title": "Puzzel v2",
+                "photo": "puzzel_v2.jpg",
+                "id": "puzzelV2"
+            },
+            {
+                "title": "Set interval",
+                "photo": "setInterval.png",
+                "id": "setInterval"
+            },
+            {
+                "title": "Gantt chart updated",
+                "photo": "ganttChart3.png",
+                "id": "ganttChart3"
+            },
+            {
+                "title": "Team update",
+                "photo": "teamBewijs3.png",
+                "id": "teamBewijs3"
+            },
+            {
+                "title": "Vergadering 5",
+                "photo": "vergadering5.png",
+                "id": "vergadering5"
             }
         ]
     }

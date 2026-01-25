@@ -1,25 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aron van Duijn</title>
-    <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/home.css">
-    <link rel="stylesheet" href="../styles/blog.css">
-    <link rel="stylesheet" href="../styles/transition.css">
-    <link rel="stylesheet" href="../styles/jigsaw.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <i id="backArrowMovie" class="back-arrow">
-        <span onclick="closeWeek()" class="material-symbols-outlined">
+        <span class="material-symbols-outlined">
             arrow_left_alt
         </span>
     </i>
 
     <main>
+        <article id="numpadContainer" class="numpad-container">
+            <section class="numpad">
+                <input class="numpad-screen" id="numpadScreen" type="text" readonly>
+
+                <section class="numpad-numbers">
+                    <button onclick="numpad(1)"><img src="../assets/images/1.png" alt="nummer pad knop 1"></button>
+                    <button onclick="numpad(2)"><img src="../assets/images/2.png" alt="nummer pad knop 2"></button>
+                    <button onclick="numpad(3)"><img src="../assets/images/3.png" alt="nummer pad knop 3"></button>
+                    <button onclick="numpad(4)"><img src="../assets/images/4.png" alt="nummer pad knop 4"></button>
+                    <button onclick="numpad(5)"><img src="../assets/images/5.png" alt="nummer pad knop 5"></button>
+                    <button onclick="numpad(6)"><img src="../assets/images/6.png" alt="nummer pad knop 6"></button>
+                    <button onclick="numpad(7)"><img src="../assets/images/7.png" alt="nummer pad knop 7"></button>
+                    <button onclick="numpad(8)"><img src="../assets/images/8.png" alt="nummer pad knop 8"></button>
+                    <button onclick="numpad(9)"><img src="../assets/images/9.png" alt="nummer pad knop 9"></button>
+                    <button onclick="numpad('delete')" alt="nummer pad knop delete">Delete</button>
+                    <button onclick="numpad(0)"><img src="../assets/images/0.png" alt="nummer pad knop 0"></button>
+                    <button onclick="numpad('enter')" alt="nummer pad knop enter">Enter</button>
+                </section>
+            </section>
+        </article>
+
         <div id="homePage" class="home-page">
+
             <div class="home-top">
                 <img class="home-top-background" src="../assets/images/banjokazooie_background.jpg" alt="achtergrond foto">
                 <h1>Aron X Banjo Kazooie</h1>
@@ -32,28 +51,57 @@
                 </section>
                 <video id="jigsaw2" class="jigsaw-2" src="../assets/videos/jigsaw2.mp4" autoplay muted loop></video>
             </div>
+
             <div class="home-bottom">
-                <ul class="timeline">
-                    <section onclick="openWeek(0)">
-                        <h2>Week1</h2>
+                <h2 class="timeline-header">Timeline</h2>
+                <div class="timeline" id="timeline">
+                    <section class="segment">
+                        <img onclick="openWeek(0)" class="week-image" src="../assets/images/1.png" alt="puzzle piece">
+                        <button onclick="openWeekId(0, 'mindmap-image')">Mindmap</button>
+                        <button onclick="openWeekId(0, 'personal-website-image')">Website design</button>
                     </section>
-                    <section onclick="openWeek(1)">
-                        <h2>Week1</h2>
+                    <section class="segment">
+                        <img onclick="openWeek(1)" class="week-image" src="../assets/images/2.png" alt="puzzle piece">
+                        <button onclick="openWeekId(1, 'vergadering1')">Vergadering 1</button>
+                        <button onclick="openWeekId(1, 'individueleStyleguide')">Styleguide</button>
                     </section>
-                </ul>
+                    <section class="segment">
+                        <img onclick="openWeek(2)" class="week-image" src="../assets/images/3.png" alt="puzzle piece">
+                        <button onclick="openWeekId(2, '1e_keer_bewijs_team')">Team voortgang</button>
+                        <button onclick="openWeekId(2, 'image_masking')">Image masking</button>
+                    </section>
+                    <section class="segment">
+                        <img onclick="openWeek(3)" class="week-image" src="../assets/images/4.png" alt="puzzle piece">
+                        <button onclick="openWeekId(3, 'design_puzzel')">Puzzel design</button>
+                        <button onclick="openWeekId(3, '2e_keer_gantt_chart')">Gantt chart update</button>
+                    </section>
+                    <section class="segment">
+                        <img onclick="openWeek(4)" class="week-image" src="../assets/images/5.png" alt="puzzle piece">
+                        <button onclick="openWeekId(4, 'puzzelV2')">Puzzel design</button>
+                        <button onclick="openWeekId(4, 'teamBewijs3')">Gantt chart update</button>
+                    </section>
+                </div>
             </div>
+
         </div>
 
         <article id="blogPage" class="blog-page">
             <span onclick="closeWeek()" class="material-symbols-outlined">
                 arrow_left_alt
             </span>
-            <section id="blogContent" class="blog-content">
-
+            
+            <section class="blog">
+                <h1 id="blogTitle"></h1>
+                <section id="blogContent" class="blog-content"></section>
             </section>
         </article>
+
     </main>
 
-    <script src="../scripts/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/numpad.js"></script>
+    <script src="../scripts/jigsaw.js"></script>
+    <script src="../scripts/blog.js"></script>
 </body>
 </html>

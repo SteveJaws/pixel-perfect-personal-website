@@ -116,7 +116,6 @@
     mask-size: contain;
     mask-position: center;
     object-fit: cover;
-    aspect-ratio: 16 / 9;
     z-index: 2;
 }
 
